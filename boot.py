@@ -63,14 +63,15 @@ def main():
             print(f"CPU使用{DiskUsage}%，温度{TEMP}")
             print(f"↑ {netSent} ↓ {netRecv}")
             print(uptime)
-        
-        except:pass
-        finally:
             if lightTurn==True:
                 pin2.value(1)
             else :
                 pin2.value(0)
             lightTurn = not lightTurn
+        
+        except:pass
+        finally:
+            
                 
             
             time.sleep_ms(1000)
