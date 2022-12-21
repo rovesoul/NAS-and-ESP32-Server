@@ -152,3 +152,18 @@ psutil     5.9.4
 nasIP="192.168.31.37"
 nasSysPort=18000
 ```
+
+…or create a new repository on the command line
+echo "# NAS-and-ESP32-Server" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rovesoul/NAS-and-ESP32-Server.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/rovesoul/NAS-and-ESP32-Server.git
+git branch -M main
+git push -u origin main
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.

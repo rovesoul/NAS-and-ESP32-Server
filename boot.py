@@ -60,7 +60,7 @@ def main():
 
             print("--"*8)
             print(f'硬盘 {DiskUsage}%,RAM {RAM}G {RAMPercent}%')
-            print(f"CPU使用{DiskUsage}%，温度{TEMP}")
+            print(f"CPU使用{DiskUsage}%，温度{TEMP}℃")
             print(f"↑ {netSent} ↓ {netRecv}")
             print(uptime)
             if lightTurn==True:
