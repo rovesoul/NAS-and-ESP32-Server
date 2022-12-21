@@ -71,9 +71,6 @@ def main():
         
         except:pass
         finally:
-            
-                
-            
             time.sleep_ms(1000)
             gc.collect()
         
